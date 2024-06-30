@@ -47,7 +47,10 @@
   "dependencies": {
     "express": "^4.19.2",
     "idb": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
     "regenerator-runtime": "^0.14.1",
+    "webpack-bundle-analyzer": "^4.10.2",
     "workbox-window": "^7.1.0"
   }
 }
