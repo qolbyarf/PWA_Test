@@ -1,7 +1,7 @@
 const createRestaurantDetailTemplate = (restaurant) => `
   <div class="restaurant">
     <h2 class="restaurant__name">${restaurant.name}</h2>
-    <img class="restaurant__poster" src="https://restaurant-api.dicoding.dev/images/large/${restaurant.pictureId}" alt="${restaurant.name}" />
+    <img class="restaurant__poster" loading="lazy" src="https://restaurant-api.dicoding.dev/images/large/${restaurant.pictureId}" alt="${restaurant.name}" />
     <div class="restaurant__info">
       <h3>Information</h3>
       <h4>Address</h4>
